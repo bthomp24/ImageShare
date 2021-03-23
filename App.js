@@ -5,7 +5,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text style ={{color: '#888', fontSize: 18}}>
+        To share a photo from your phone with a friend, just press the buttone below!
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
